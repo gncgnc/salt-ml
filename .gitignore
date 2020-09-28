@@ -1,0 +1,12 @@
+.DS_STORE
+__pycache__
+.vscode
+venv
+
+
+# keep folders, don't include contents
+ARCHITECTURE/*
+!ARCHITECTURE/.gitkeep
+
+CITYSOCIETYECONOMY/*
+!CITYSOCIETYECONOMY/.gitkeep
