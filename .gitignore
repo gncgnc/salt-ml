@@ -10,3 +10,6 @@ ARCHITECTURE/*
 
 CITYSOCIETYECONOMY/*
 !CITYSOCIETYECONOMY/.gitkeep
+
+# ignore zip files
+*.zip

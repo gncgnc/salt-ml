@@ -22,7 +22,6 @@ def main():
 
     num = 0
     for item_dir in resource_dirs:
-        num+=1
         if num % 100 == 0:
             print(f"processing {num}/{len(resource_dirs)} -- {item_dir}")
 
@@ -31,8 +30,8 @@ def main():
         # get uri from xml
         item_uri = get_uri_suffix(item_dir)
 
-
         for image_file in image_files:
+            num+=1
             photo_data = dict()
             photo_id = os.path.splitext(image_file)[0]
             
