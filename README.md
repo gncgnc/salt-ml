@@ -5,10 +5,10 @@
 
 {
     "data": {
-        <name/id of image> : {
-            "path": <path to image>,
-            "uri_suffix": <link id for SALT website>,
-            "features": <place for feature vector of the image, empty arrays for now>
+        "[[name/id of image]]" : {
+            "path": "[[path to image]]",
+            "uri_suffix": "[[link id for SALT website]]",
+            "features": "[[place for feature vector of the image, empty arrays for now]]"
         }
     }
 }
@@ -19,9 +19,9 @@ It outputs data as below.
 
 ```json
 {
-    <name/id of image>: {
-        "path": <path to image>,
-        "features": <place for feature vector of the image>
+    "[[name/id of image]]": {
+        "path": "[[path to image]]",
+        "features": "[[place for feature vector of the image]]"
     }
 }
 ```
@@ -29,5 +29,5 @@ Thanks to Gene Kogan from ml4a for the reference implementation [here](https://g
 
 ## TODO
 
-[ ] Merge outputs of both scripts
-[ ] Compute closest neighbors
+- [ ] Merge outputs of both scripts
+- [ ] Compute closest neighbors
